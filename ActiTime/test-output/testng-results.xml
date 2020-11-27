@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome LAunched]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Login Msg is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Chrome LAunched]]>
+    </line>
+    <line>
+      <![CDATA[Logo is verified]]>
+    </line>
+    <line>
+      <![CDATA[Logo is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Chrome LAunched]]>
+    </line>
+    <line>
+      <![CDATA[Create customer msg is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Customer "GE HealthCare" has been successfully created.]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Chrome LAunched]]>
+    </line>
+    <line>
+      <![CDATA[Customer has been successfully deleted.]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-11-17T11:29:14Z" name="Suite" finished-at="2020-11-17T11:31:55Z" duration-ms="160511">
+    <groups>
+    </groups>
+    <test started-at="2020-11-17T11:29:14Z" name="Test" finished-at="2020-11-17T11:31:55Z" duration-ms="160511">
+      <class name="com.actitime.scripts.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.actitime.scripts.LoginTest@4738a206]" started-at="2020-11-17T11:29:14Z" name="setUp" finished-at="2020-11-17T11:29:32Z" duration-ms="18193" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome LAunched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="InvalidLogin()[pri:0, instance:com.actitime.scripts.LoginTest@4738a206]" started-at="2020-11-17T11:29:32Z" name="InvalidLogin" finished-at="2020-11-17T11:29:44Z" duration-ms="11765" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid Login Msg is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.LoginTest@4738a206]" started-at="2020-11-17T11:29:44Z" name="tearDown" finished-at="2020-11-17T11:29:46Z" duration-ms="1443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=SUCCESS method=LoginTest.InvalidLogin()[pri:0, instance:com.actitime.scripts.LoginTest@4738a206] output=Invalid Login Msg is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.actitime.scripts.LoginTest@4738a206]" started-at="2020-11-17T11:29:46Z" name="setUp" finished-at="2020-11-17T11:29:56Z" duration-ms="10119" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome LAunched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLogin()[pri:0, instance:com.actitime.scripts.LoginTest@4738a206]" started-at="2020-11-17T11:29:56Z" name="validLogin" finished-at="2020-11-17T11:30:06Z" duration-ms="10715" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logo is verified]]>
+            </line>
+            <line>
+              <![CDATA[Logo is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.LoginTest@4738a206]" started-at="2020-11-17T11:30:06Z" name="tearDown" finished-at="2020-11-17T11:30:11Z" duration-ms="4572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginTest.validLogin()[pri:0, instance:com.actitime.scripts.LoginTest@4738a206] output=Logo is verified]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.scripts.LoginTest -->
+      <class name="com.actitime.scripts.TasksTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.actitime.scripts.TasksTest@66d3eec0]" started-at="2020-11-17T11:30:11Z" name="setUp" finished-at="2020-11-17T11:30:22Z" duration-ms="10750" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome LAunched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createCustomer()[pri:0, instance:com.actitime.scripts.TasksTest@66d3eec0]" started-at="2020-11-17T11:30:22Z" name="createCustomer" finished-at="2020-11-17T11:30:55Z" duration-ms="33457" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Create customer msg is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Customer "GE HealthCare" has been successfully created.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.TasksTest@66d3eec0]" started-at="2020-11-17T11:30:55Z" name="tearDown" finished-at="2020-11-17T11:30:57Z" duration-ms="1310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCustomer status=SUCCESS method=TasksTest.createCustomer()[pri:0, instance:com.actitime.scripts.TasksTest@66d3eec0] output=Create customer msg is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.actitime.scripts.TasksTest@66d3eec0]" started-at="2020-11-17T11:30:57Z" name="setUp" finished-at="2020-11-17T11:31:14Z" duration-ms="17582" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome LAunched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteCustomer()[pri:0, instance:com.actitime.scripts.TasksTest@66d3eec0]" started-at="2020-11-17T11:31:14Z" name="deleteCustomer" finished-at="2020-11-17T11:31:53Z" depends-on-methods="com.actitime.scripts.TasksTest.createCustomer" duration-ms="39120" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Customer has been successfully deleted.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.TasksTest@66d3eec0]" started-at="2020-11-17T11:31:53Z" name="tearDown" finished-at="2020-11-17T11:31:55Z" duration-ms="1402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteCustomer status=SUCCESS method=TasksTest.deleteCustomer()[pri:0, instance:com.actitime.scripts.TasksTest@66d3eec0] output=Customer has been successfully deleted.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.scripts.TasksTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

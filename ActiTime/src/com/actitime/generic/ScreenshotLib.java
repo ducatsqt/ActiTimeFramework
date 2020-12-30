@@ -10,7 +10,7 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 public class ScreenshotLib {
 	
-	//static method used to take a screenshot
+	//method used to take a screenshot
 	public void takescreenshot(WebDriver driver, String scriptName)
 	{
 

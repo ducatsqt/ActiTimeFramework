@@ -11,6 +11,14 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.actitime.scripts.TasksTest -->
+      <class name="com.actitime.scripts.LoginTest">
+        <methods>
+          <include name="validLogin"/>
+          <include name="InvalidLogin"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.actitime.scripts.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

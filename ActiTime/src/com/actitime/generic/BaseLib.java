@@ -20,10 +20,10 @@ public class BaseLib
 		if(browserName.equalsIgnoreCase("chrome"))
 		
 		{
-			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:/chromedriver/chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
-			Reporter.log("Chrome LAunched", true);
+			Reporter.log("Chrome Launched", true);
 			
 			
 		}
